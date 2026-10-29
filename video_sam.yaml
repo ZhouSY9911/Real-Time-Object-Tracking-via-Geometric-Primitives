@@ -1,0 +1,14 @@
+realsense:
+  bag_path: "/home/zhou/MA/Video_set/video_7/video7.1.bag"
+  skip_frames: 0
+
+sam:
+  checkpoint: "/home/zhou/MA/third_party/segment-anything/sam_vit_h_4b8939.pth"
+  model_type: "vit_h"
+  device: "cuda"
+
+runtime:
+  save_dir: "outputs/first_frame_multiobj"
+  window_width: 640
+  window_height: 480
+  min_box_size: 5
